@@ -1,0 +1,61 @@
+/* General body styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+  background-image: url('bg.jpg'); /* Add your background image here */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Header section */
+header {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: rgba(0, 0, 0, 0.6); /* optional overlay for readability */
+}
+
+/* Title styling */
+header h1 {
+  font-size: 3em;
+  color: #00ffe1; /* Change this to any color you want */
+  margin: 10px 0;
+}
+
+/* Subtitle styling */
+header p {
+  font-size: 1.2em;
+  color: #cccccc;
+}
+
+/* Logo */
+.logo {
+  width: 100px;
+  border-radius: 50%;
+}
+
+/* Section headers */
+section h2 {
+  color: #00ffd0;
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* Buttons */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #00ffe1;
+  color: black;
+  text-decoration: none;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
